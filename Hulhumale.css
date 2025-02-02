@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #f8f9fa;
+    
+}
+
+.navbar {
+    background-color: #0093a4;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.15rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e0f7fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.activity-category {
+    color: #8c8c8c;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.actions a {
+    color: #3b7bbf;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.activity-details {
+    margin: 20px 0;
+}
+
+.feature {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0;
+}
+
+.feature p {
+    font-weight: bold;
+    color: #333;
+}
+
+.feature span {
+    display: block;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.booking {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #f8f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #e63946;
+}
+
+.availability-btn, .gift-btn {
+    display: block;
+    background-color: #3b7bbf;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.availability-btn:hover, .gift-btn:hover {
+    background-color: #2a5a8f;
+}
